@@ -2,7 +2,7 @@ body{
 	background-color: rgb(245, 245, 245);
 	color: rgb(30, 30, 30);
 	font-family: fantasy;
-	font-size: 17px;
+	font-size: 20px;
 }
 
 h1 {
@@ -30,7 +30,7 @@ a:hover{
 
 
 .container {
-    width: 800px;
+    width: 900px;
     margin: 40px auto;
 }
 .card-design {
@@ -52,4 +52,22 @@ a:hover{
 .btn-bleu:hover{
 	background-color: black;
 	color: white;
+}
+
+@media(max-width: 1000px){
+	.container{
+		width: 800px;
+	}
+}
+
+@media(max-width: 820px){
+	.container{
+		width: 600px;
+	}
+}
+
+@media(max-width: 620px){
+	.container{
+		width: 400px;
+	}
 }
